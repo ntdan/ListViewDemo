@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
             // cap nhat lai list view
+            adp.notifyDataSetChanged();
         }
 
         return true;
